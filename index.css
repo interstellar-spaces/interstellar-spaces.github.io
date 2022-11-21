@@ -14,7 +14,7 @@ nav {
     padding: 20px;
 }
 
-p, h1, button {
+p, h1, h2, button {
     font-family: 'Fragment Mono', monospace;
     color: #04BFAD;
 }
@@ -35,12 +35,32 @@ p, h1, button {
     padding: 100px;
 }
 
+.projects-content {
+    padding: 50px;
+}
+
 .about-text {
     padding-left: 80px;
 }
 
 .about-text p, .about-text h1 {
     text-align: justify;
+}
+
+.project-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-object {
+    background-color: #01403A;
+    width: 30%;
+    height: 400px;
+}
+
+.project-object p, .project-object h2 {
+    color: #E4F2E7;
+    padding: 0px 10px 10px 20px;
 }
 
 body {
@@ -75,4 +95,8 @@ button:hover {
 
 .nav-bar-element:hover {
     color: #01403A;
+}
+
+.project-object:hover {
+    box-shadow: 10px 10px #387373;
 }

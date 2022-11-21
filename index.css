@@ -1,0 +1,78 @@
+.app-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar-element {
+    padding: 20px;
+}
+
+p, h1, button {
+    font-family: 'Fragment Mono', monospace;
+    color: #04BFAD;
+}
+
+.title {
+    padding: 20px;
+}
+
+.home-content {
+    text-align: center;
+    padding: 50px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.about-text {
+    padding-left: 80px;
+}
+
+.about-text p, .about-text h1 {
+    text-align: justify;
+}
+
+body {
+    background-color: #012626;
+}
+
+button {
+    background-color: #01403A;
+    border: 1px solid #01403A;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#about-picture {
+    width: 20%;
+    box-shadow: 10px 10px #387373;
+}
+
+a {
+    color: transparent;
+}
+
+a p:hover {
+    color: #E4F2E7;
+}
+
+button:hover {
+    color: #E4F2E7;
+    background-color: #387373;
+}
+
+.nav-bar-element:hover {
+    color: #01403A;
+}

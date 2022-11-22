@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 nav {
@@ -57,15 +57,31 @@ p, h1, h2, button {
     justify-content: space-between;
 }
 
-.project-object {
-    background-color: #01403A;
-    width: 30%;
-    height: 400px;
+.project-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
 }
 
-.project-object p, .project-object h2 {
+.project-object {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #01403A;
+    width: 30%;
+    height: 550px;
+}
+
+.project-object p, .project-object h2, .project-object img {
     color: #E4F2E7;
     padding: 0px 10px 10px 20px;
+}
+
+#demo-picture {
+    padding: auto;
+    max-width: 90%;
+    max-height: 330px;
 }
 
 .contact-content {

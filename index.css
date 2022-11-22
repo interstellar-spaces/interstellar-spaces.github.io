@@ -47,6 +47,11 @@ p, h1, h2, button {
     text-align: justify;
 }
 
+#about-picture {
+    width: 20%;
+    box-shadow: 10px 10px #387373;
+}
+
 .project-wrapper {
     display: flex;
     justify-content: space-between;
@@ -63,6 +68,26 @@ p, h1, h2, button {
     padding: 0px 10px 10px 20px;
 }
 
+.contact-content {
+    padding: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.contact-content p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contact-link {
+    padding: 10px;
+}
+
+#contact-picture {
+    width: 30%;
+    box-shadow: 10px 10px #387373;
+}
 body {
     background-color: #012626;
 }
@@ -75,17 +100,17 @@ button {
     border-radius: 5px;
 }
 
-#about-picture {
-    width: 20%;
-    box-shadow: 10px 10px #387373;
-}
-
 a {
-    color: transparent;
+    text-decoration: none;
+    color: #04BFAD;
 }
 
-a p:hover {
+#nav-link p:hover {
     color: #E4F2E7;
+}
+
+#contact-link i:hover {
+    color:#E4F2E7;
 }
 
 button:hover {

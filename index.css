@@ -26,6 +26,8 @@ p, h1, h2, button {
 .home-content {
     text-align: center;
     padding: 50px;
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 
 .about-content {
@@ -33,10 +35,14 @@ p, h1, h2, button {
     align-items: center;
     justify-content: space-between;
     padding: 100px;
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 
 .projects-content {
     padding: 50px;
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 
 .about-text {
@@ -89,6 +95,8 @@ p, h1, h2, button {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    margin-top: 90px;
+    margin-bottom: 50px;
 }
 
 .contact-content p {

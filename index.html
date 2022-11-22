@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/42b7904875.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="app-bar">
@@ -15,24 +16,92 @@
         </div>
         <nav>
             <div class="nav-bar-element">
-                <a id="nav-link" href="/index.html"><p>Home</p></a>
+                <a id="nav-link" href="#home"><p>Home</p></a>
             </div>
             <div class="nav-bar-element">
-                <a id="nav-link" href="/about.html"><p>About Me</p></a>
+                <a id="nav-link" href="#about"><p>About Me</p></a>
             </div>
             <div class="nav-bar-element">
-                <a id="nav-link" href="/projects.html"><p>Projects</p></a>
+                <a id="nav-link" href="#projects"><p>Projects</p></a>
             </div>
             <div class="nav-bar-element">
-                <a id="nav-link" href="/contact.html"><p>Contact Me</p></a>
+                <a id="nav-link" href="#contact"><p>Contact Me</p></a>
             </div>
         </nav> 
     </div>
     <div class="home-content" id="home">
         <h1>Hi, my name is Rory Nguyen.</h1>
         <h1>I'm a software engineer interested in security and networking.</h1>    
-        <a href="/about.html"><button class="navigation-button">About Me</button></a>   
-        <a href="/projects.html"><button class="navigation-button">Projects</button></a> 
+        <a href="#about"><button class="navigation-button">About Me</button></a>   
+        <a href="#projects"><button class="navigation-button">Projects</button></a> 
+    </div>
+    <div class="about-content" id="about">
+        <img alt="Image of Rory Nguyen in a blazer" id="about-picture" src="/Photobook_Rory_Nguyen.jpg"></img>
+        <div class="about-text">
+            <h1>About Me</h1>
+            <p>
+                Hi, my name is Rory Nguyen. I was born in Haiphong, Vietnam but grew up on the Jersey Shore.
+                I have experience with data analytics at a student-led startup, web scraping and developing internal tools at Infosys, creating update tools and drivers for the first smart door company, and working alongside
+                the trips team at Expedia to program machine-learning enabled packages. In the fall, I will be heading to Oracle's OCI team.
+            </p>
+            <p>
+                My hobbies include attending local concerts, watching movies, thrifting, and listening to podcasts.
+            </p>
+            <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1mHRXxejc8F7zKBSwTjHd4siY7U6jGMCM/view?usp=sharing"><button class="resume-button">View Resume</button></a> 
+        </div>
+    </div>
+    <div class="projects-content" id="projects">
+        <div class="project-heading"><h1>Projects</h1></div>
+        <div class="project-wrapper">
+            <div class="project-object">
+                <div class="project-title">
+                    <h2>YourLife</h2>
+                    <a aria-label="Click to open my linkedin.com profile" id="contact-link" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1M6EBWP8zjgGbYhnJcVMydMfvUAoT912t/view?usp=sharing">
+                        <i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i>
+                    </a>
+                </div>
+                <div class="project-description"><p>A website that creates a slideshow-style video about yourself using a few easy questions</p></div>
+                <img id="demo-picture" alt="YourLife demo picture" src="your-life.jpg"></img>
+            </div>
+            <div class="project-object">
+                <div class="project-title">
+                    <h2>Photo App Project</h2>
+                    <a aria-label="Click to open photo app demo" id="contact-link" target="_blank" rel="noopener noreferrer" href="https://secure-photo-app-demo.herokuapp.com/">
+                        <i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i>
+                    </a>
+                </div>
+                <div class="project-description"><p>A website that allows users to login and view their friends' posts</p></div>
+                <img id="demo-picture" alt="Photo app demo picture" src="photo-app.jpg"></img>
+            </div>
+            <div class="project-object">
+                <div class="project-title">
+                    <h2>Music Player</h2>
+                </div>
+                <div class="project-description"><p>Music web player that allows users to select albums and songs to play</p></div>
+                <div class="image row">
+                    <img id="demo-picture" alt="Music player app demo picture" src="music-demo.png"></img>
+                    <img id="demo-picture" alt="Music player app demo picture" src="music-demo-3.png"></img>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact-content" id="contact">
+        <img alt="Image of Rory Nguyen in formal clothes in front of stars saying 'Next is Now' at Grace Hopper Celebration 2022" id="contact-picture" src="/ghc.jpg"></img>
+        <div class="contact-text">
+            <div class="contact-heading"><h1>Get In Touch</h1></div>
+            <p>
+                Thanks for visiting my website! You can contact me using the following links.
+            </p>
+            <a aria-label="Click to email me" id="contact-link" target="_blank" rel="noopener noreferrer" href="mailto:rorynguyen2048@gmail.com">
+                <i title="email envelope icon" class="fa-regular fa-envelope fa-3x"></i>
+            </a>
+            <a aria-label="Click to open my linkedin.com profile" id="contact-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/rory-nguyen-76b3711a9/">
+                <i title="linkedin.com icon" class="fa-brands fa-linkedin fa-3x"></i>
+            </a>
+            <a aria-label="Click to open my instagram.com profile" id="contact-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dtnguyener/">
+                <i title="instagram.com icon" class="fa-brands fa-instagram fa-3x"></i>
+            </a>
+        </div> 
     </div>
 </body>
 </html>

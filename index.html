@@ -36,7 +36,7 @@
         <a href="#projects"><button class="navigation-button">Projects</button></a> 
     </div>
     <div class="about-content" id="about">
-        <img alt="Image of Rory Nguyen in a blazer" id="about-picture" src="/Photobook_Rory_Nguyen.jpg"></img>
+        <img alt="Image of Rory Nguyen in a blazer" id="about-picture" src="/assets/Photobook_Rory_Nguyen.jpg"></img>
         <div class="about-text">
             <h1>About Me</h1>
             <p>
@@ -55,46 +55,49 @@
         <div class="project-wrapper">
             <div class="project-object">
                 <div class="project-title">
-                    <h2>YourLife</h2>
+                    <a aria-label="Click to read more about YourLife project" id="project-link" target="_blank" rel="noopener noreferrer" href="projects/your-life.html"><h2>YourLife</h2></a>
                     <a aria-label="Click to open my linkedin.com profile" id="contact-link" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1M6EBWP8zjgGbYhnJcVMydMfvUAoT912t/view?usp=sharing">
                         <i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i>
                     </a>
                 </div>
-                <div class="project-description"><p>A website that creates a slideshow-style video about yourself using a few easy questions</p></div>
-                <img id="demo-picture" alt="YourLife demo picture" src="your-life.jpg"></img>
+                <div class="project-description">
+                    <div class="project-date"><p>SEPT-DEC 2022</p></div>
+                    <p>For one of my classes, my teammates and I were tasked to create a website that creates a slideshow-style video about yourself using a few easy questions. We used the Flask API and various image crawling and photo
+                        editing python libraries.</p>
+                    </div>
             </div>
             <div class="project-object">
                 <div class="project-title">
-                    <h2>Photo App Project</h2>
+                    <a aria-label="Click to read more about my photo app project" id="project-link" target="_blank" rel="noopener noreferrer" href="projects/photo-app.html"><h2>Photo App Project</h2></a>
                     <a aria-label="Click to open photo app demo" id="contact-link" target="_blank" rel="noopener noreferrer" href="https://secure-photo-app-demo.herokuapp.com/">
                         <i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i>
                     </a>
                 </div>
-                <div class="project-description"><p>A website that allows users to login and view their friends' posts</p></div>
-                <img id="demo-picture" alt="Photo app demo picture" src="photo-app.jpg"></img>
+                <div class="project-description">
+                    <div class="project-date"><p>APR-JUN 2022</p></div>
+                    <p>In my Intro to Web Development class, our class project was to develop a website using REST APIs and Heroku that allows users to login and view their friends' posts, with authencation and stored user functionality.</p></div>
             </div>
             <div class="project-object">
                 <div class="project-title">
-                    <h2>Music Player</h2>
+                    <a aria-label="Click to read more about my web player project" id="project-link" target="_blank" rel="noopener noreferrer" href="projects/music-player.html"><h2>Music Player</h2></a>
                 </div>
-                <div class="project-description"><p>Music web player that allows users to select albums and songs to play</p></div>
-                <div class="image row">
-                    <img id="demo-picture" alt="Music player app demo picture" src="music-demo.png"></img>
-                    <img id="demo-picture" alt="Music player app demo picture" src="music-demo-3.png"></img>
-                </div>
+                <div class="project-description">
+                    <div class="project-date"><p>NOV 2022</p></div>
+                    <p>Music web player that allows users to select albums and songs to play</p></div>
             </div>
         </div>
     </div>
     <div class="contact-content" id="contact">
-        <img alt="Image of Rory Nguyen in formal clothes in front of stars saying 'Next is Now' at Grace Hopper Celebration 2022" id="contact-picture" src="/ghc.jpg"></img>
+        <img alt="Image of Rory Nguyen in formal clothes in front of stars saying 'Next is Now' at Grace Hopper Celebration 2022" id="contact-picture" src="/assets/ghc.jpg"></img>
         <div class="contact-text">
             <div class="contact-heading"><h1>Get In Touch</h1></div>
             <p>
                 Thanks for visiting my website! You can contact me using the following links.
             </p>
-            <a aria-label="Click to email me" id="contact-link" target="_blank" rel="noopener noreferrer" href="mailto:rorynguyen2048@gmail.com">
+            <div class="email-contact">
                 <i title="email envelope icon" class="fa-regular fa-envelope fa-3x"></i>
-            </a>
+                <p>rorynguyen[at]gmail[dot]com</p>
+            </div>
             <a aria-label="Click to open my linkedin.com profile" id="contact-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/rory-nguyen-76b3711a9/">
                 <i title="linkedin.com icon" class="fa-brands fa-linkedin fa-3x"></i>
             </a>

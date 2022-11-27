@@ -76,11 +76,15 @@ p, h1, h2, button {
     align-items: stretch;
     background-color: #01403A;
     width: 30%;
-    height: 550px;
+    height: 400px;
 }
 
-.project-object p, .project-object h2, .project-object img {
+.project-object p, .project-object img {
     color: #E4F2E7;
+    padding: 0px 10px 10px 20px;
+}
+
+.project-object h2 {
     padding: 0px 10px 10px 20px;
 }
 
@@ -102,6 +106,17 @@ p, h1, h2, button {
 .contact-content p {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.email-contact {
+    color:#04BFAD;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.email-contact p {
+    padding-left: 20px;
 }
 
 #contact-link {
@@ -131,6 +146,10 @@ a {
 
 #nav-link p:hover {
     color: #E4F2E7;
+}
+
+.project-object h2:hover {
+    color:#E4F2E7;
 }
 
 #contact-link i:hover {

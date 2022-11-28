@@ -61,15 +61,24 @@ p, h1, h2, button {
     padding: 0px 10px 5px 20px;
 }
 
-#your-life-interface {
+.project-images {
     display: flex;
     text-align: center;
     align-items: center;
     flex-direction: column;
 }
 
+#music-player-interface {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
 img {
-    width: 65%;
+    max-width: 65%;
+    max-height: 600px;
 }
 
 .section-title h2 {

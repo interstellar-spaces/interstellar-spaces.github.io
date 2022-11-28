@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
     <title>Rory's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <link rel="stylesheet" type="text/css" href="projects.css"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
         rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,54 +16,48 @@
         </div>
         <nav>
             <div class="nav-bar-element">
-                <a id="nav-link" href="/index.html"><p>Home</p></a>
+                <a id="nav-link" href="/index.html#home"><p>Home</p></a>
             </div>
             <div class="nav-bar-element">
-                <a id="nav-link" href="/about.html"><p>About Me</p></a>
+                <a id="nav-link" href="/index.html#about"><p>About Me</p></a>
             </div>
             <div class="nav-bar-element">
-                <a id="nav-link" href="/projects.html"><p>Projects</p></a>
+                <a id="nav-link" href="/index.html#projects"><p>Projects</p></a>
             </div>
             <div class="nav-bar-element">
-                <a id="nav-link" href="/contact.html"><p>Contact Me</p></a>
+                <a id="nav-link" href="/index.html#contact"><p>Contact Me</p></a>
             </div>
         </nav>       
     </div>
-    <div class="projects-content">
-        <div class="project-heading"><h1>Projects</h1></div>
-        <div class="project-wrapper">
-            <div class="project-object">
-                <div class="project-title">
-                    <h2>YourLife</h2>
-                    <a aria-label="Click to open my linkedin.com profile" id="contact-link" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1M6EBWP8zjgGbYhnJcVMydMfvUAoT912t/view?usp=sharing">
-                        <i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i>
-                    </a>
-                </div>
-                <div class="project-description"><p>A website that creates a slideshow-style video about yourself using a few easy questions</p></div>
-                <img id="demo-picture" alt="YourLife demo picture" src="your-life.jpg"></img>
+    <div class="project-wrapper">
+        <div class="project-title"><h1>Music Player</h1></div>
+        <div class="project-section" id="music-player-description">
+            <div class="section-title">
+                <h2>Description</h2>
             </div>
-            <div class="project-object">
-                <div class="project-title">
-                    <h2>Photo App Project</h2>
-                    <a aria-label="Click to open photo app demo" id="contact-link" target="_blank" rel="noopener noreferrer" href="https://secure-photo-app-demo.herokuapp.com/">
-                        <i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i>
-                    </a>
-                </div>
-                <div class="project-description"><p>A website that allows users to login and view their friends' posts</p></div>
-                <img id="demo-picture" alt="Photo app demo picture" src="photo-app.jpg"></img>
-            </div>
-            <div class="project-object">
-                <div class="project-title">
-                    <h2>Music Player</h2>
-                </div>
-                <div class="project-description"><p>Music web player that allows users to select albums and songs to play</p></div>
-                <div class="image row">
-                    <img id="demo-picture" alt="Music player app demo picture" src="music-demo.png"></img>
-                    <img id="demo-picture" alt="Music player app demo picture" src="music-demo-3.png"></img>
-                </div>
+            <div class="project-date"><p>NOV 2022</p></div>
+            <div class="project-text">
+                <p>In my Human-Computer Interaction class, I made a mobile music player using HTML, CSS, and Javascript that allows users to select albums and songs to play and to play, pause, and skip through songs.</p>
             </div>
         </div>
-        
+        <div class="project-section">
+            <div class="section-title">
+                <h2>Frameworks/Packages</h2>
+            </div>
+            <div class="project-text" id="music-player-frameworks">
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+        </div>
+        <div class="project-section">
+            <div class="section-title">
+                <h2>Interface</h2>
+            </div>
+            <div class="project-images" id="music-player-interface">
+                <img alt="Website interface of music demo project" src="../assets/music-demo-2.png">
+                <img alt="Website interface of music demo project" src="../assets/music-demo.png">
+                <img alt="Website interface of music demo project" src="../assets/music-demo-3.png">
+            </div>
+        </div>
     </div>
 </body>
 </html>

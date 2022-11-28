@@ -1,0 +1,119 @@
+.app-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar-element {
+    padding: 20px;
+}
+
+p, h1, h2, button {
+    font-family: 'Fragment Mono', monospace;
+    color: #04BFAD;
+}
+
+.title {
+    padding: 20px;
+}
+
+.project-title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.project-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #01403A;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.project-date p {
+    color:#04BFAD;
+    padding: 0px 10px 0px 20px;
+}
+
+.project-text p, .project-text img {
+    color: #E4F2E7;
+    padding: 0px 10px 5px 20px;
+}
+
+#your-life-interface {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 65%;
+}
+
+.section-title h2 {
+    padding: 0px 10px 0px 20px;
+}
+
+body {
+    background-color: #012626;
+}
+
+button {
+    background-color: #01403A;
+    border: 1px solid #01403A;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #04BFAD;
+}
+
+#nav-link p:hover {
+    color: #E4F2E7;
+}
+
+.project-object h2:hover {
+    color:#E4F2E7;
+}
+
+#contact-link i:hover {
+    color:#E4F2E7;
+}
+
+button:hover {
+    color: #E4F2E7;
+    background-color: #387373;
+}
+
+.nav-bar-element:hover {
+    color: #01403A;
+}
+
+.project-object:hover {
+    box-shadow: 10px 10px #387373;
+}
